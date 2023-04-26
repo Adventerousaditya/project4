@@ -1,0 +1,64 @@
+
+body{
+    background-image: url("project3.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-attachment:scroll;
+}
+h1{
+    text-align: center;
+    color:  #83679e;
+}
+#survey_form{
+    width: 60%;
+    text-align: left;
+    position: absolute;
+    left: 20%;
+    background-color:whitesmoke;
+    visibility: initial;
+    padding-left: 100px;
+    border: double;
+    border-radius: 20px;
+    border-width: 15px;
+    opacity: 0.6;
+    margin-right: 20px;
+}
+input{
+    background-color: rgb(217, 176, 233);
+    border-radius: 10px;
+    width: 500px;
+    height:30px
+    
+}
+label{
+    white-space: 5;
+}
+#submit{
+    width: 3%;
+    position: relative;
+    left:100px;
+    text-align: center;
+}
+.radiobuttons{
+    position: absolute;
+    left: 170px;
+    width:unset;
+}
+@media (max-width: 850px){
+    input{
+        width:200px;
+    }
+    #submit{
+        position:relative;
+        left :50px;
+    }
+    body{
+        background-size: 500%;
+    }
+    #survey_form{
+        position: absolute;
+        left :20px;
+        padding-left: 5%;
+        width:400px
+    }
+}
